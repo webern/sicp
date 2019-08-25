@@ -1,5 +1,6 @@
 #lang racket
 
+; Exercise 1.6
 ; Prerequisite Definitions
 
 (define (abs x) ((if (< x 0) - +) x))

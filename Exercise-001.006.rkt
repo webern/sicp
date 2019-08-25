@@ -66,5 +66,23 @@
 ; Delighted, Alyssa uses new-if to rewrite the square-root
 ; program:
 
-(define (sqrt-iter guess x)
+(define (sqrt-iter-new guess x)
   (new-if (good-enough? guess x)
+          guess
+          (sqrt-iter-new (improve guess x)
+                         x)))
+
+(define (sqrt-new x)
+  (sqrt-iter-new 1.0 x))
+
+(sqrt-new 4)
+
+; What happens when Alyssa uses this to compute square roots? Explain.
+;
+; The program ran out of memory (endless loop).
+; I think this happens because the program is using applicative orde
+; to evaluate both branches of the if statement, whereas the special
+; form 'if' only evaluates one of the branches after determining the
+; value of the conditional. Since the sqrt-iter-new else block calls
+; sqrt-iter-new recursively, the applicative order evaulation can
+; never terminate.

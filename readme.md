@@ -13,7 +13,7 @@ This is my work on Structure and Intepretation of Computer Programs.
 - [x] 006 Exercise 1.6
 - [x] 007 Exercise 1.7
 - [x] 008 Exercise 1.8
-- [ ] 009 Exercise 1.9
+- [x] 009 Exercise 1.9
 - [ ] 010 Exercise 1.10
 - [ ] 011 Exercise 1.11
 - [ ] 012 Exercise 1.12

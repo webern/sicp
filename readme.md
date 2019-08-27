@@ -11,8 +11,8 @@ This is my work on Structure and Intepretation of Computer Programs.
 - [x] 004 Exercise 1.4
 - [x] 005 Exercise 1.5
 - [x] 006 Exercise 1.6
-- [ ] 007 Exercise 1.7
-- [ ] 008 Exercise 1.8
+- [x] 007 Exercise 1.7
+- [x] 008 Exercise 1.8
 - [ ] 009 Exercise 1.9
 - [ ] 010 Exercise 1.10
 - [ ] 011 Exercise 1.11

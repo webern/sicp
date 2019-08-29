@@ -15,8 +15,8 @@ This is my work on Structure and Intepretation of Computer Programs.
 - [x] 008 Exercise 1.8
 - [x] 009 Exercise 1.9
 - [x] 010 Exercise 1.10
-- [ ] 011 Exercise 1.11
-- [ ] 012 Exercise 1.12
+- [ ] 011 Exercise 1.11 -> HARD: TODO - Try Again
+- [x] 012 Exercise 1.12
 - [ ] 013 Exercise 1.13
 - [ ] 014 Exercise 1.14
 - [ ] 015 Exercise 1.15

@@ -5,7 +5,7 @@
 
 
 ; this function takes the amount to make change for as 'amount'. The number of types of coins is
-; hardcoded at 5, and those denominations are hard-coded as 1, 5, 10, 25 and 50.
+; hard-coded at 5, and those denominations are hard-coded as 1, 5, 10, 25 and 50.
 (define (count-change amount) (cc amount 5))
 
 ; cc is a recursive function that returns the number of ways to make change for a given amount.

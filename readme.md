@@ -17,7 +17,7 @@ This is my work on Structure and Intepretation of Computer Programs.
 - [x] 010 Exercise 1.10
 - [ ] 011 Exercise 1.11 -> HARD: TODO - Try Again
 - [x] 012 Exercise 1.12
-- [ ] 013 Exercise 1.13
+- [ ] 013 Exercise 1.13 -> MATH: TODO - Look this up somewhere and understand.
 - [ ] 014 Exercise 1.14
 - [ ] 015 Exercise 1.15
 - [ ] 016 Exercise 1.16

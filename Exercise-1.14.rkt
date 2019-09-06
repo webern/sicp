@@ -107,4 +107,13 @@
 ;                                                    /     \
 ;                                               (cc 2 0):0  (cc 1 1):1
 
-; Time Complexity: 
+; Time Complexity: I don't know how to prove it analytically, but there seems to be agreement that
+; it is 0(n^5) where n is the amount, and 5 is the kinds of coins. 
+;
+; This explaination seems plausible:
+; (from https://github.com/trptcolin/sicp-study/blob/master/scheme/week-2/exercise-1.14.ss)
+; so (cc n 1) generates 2*n steps, with n space taken up
+;    O(n) in both time and space
+; (cc n 2) generates a (cc n 1) process and a (cc (-n 1) 2) process, which means
+;    looks recursive, right? so for every increase of the number of coins, we're
+;    going to have a new branch of O(n) to worry about, so it's O(n^5) in time and space

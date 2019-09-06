@@ -19,7 +19,7 @@ This is my work on Structure and Intepretation of Computer Programs.
 - [x] 012 Exercise 1.12
 - [ ] 013 Exercise 1.13 -> MATH: TODO - Look this up somewhere and understand.
 - [x] 014 Exercise 1.14 -> best effort, cannot do the big O analysis
-- [x] 015 Exercise 1.15
+- [x] 015 Exercise 1.15 -> EASY
 - [ ] 016 Exercise 1.16
 - [ ] 017 Exercise 1.17
 - [ ] 018 Exercise 1.18

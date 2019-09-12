@@ -22,7 +22,7 @@ This is my work on Structure and Intepretation of Computer Programs.
 - [x] 015 Exercise 1.15 -> EASY
 - [x] 016 Exercise 1.16 -> MODERATE - important
 - [x] 017 Exercise 1.17 -> EASY
-- [ ] 018 Exercise 1.18
+- [x] 018 Exercise 1.18 -> EASY - if you understood 1.16
 - [ ] 019 Exercise 1.19
 - [ ] 020 Exercise 1.20
 - [ ] 021 Exercise 1.21

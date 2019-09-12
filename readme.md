@@ -21,7 +21,7 @@ This is my work on Structure and Intepretation of Computer Programs.
 - [x] 014 Exercise 1.14 -> best effort - cannot do the big O analysis
 - [x] 015 Exercise 1.15 -> EASY
 - [x] 016 Exercise 1.16 -> MODERATE - important
-- [ ] 017 Exercise 1.17 -> in progress
+- [x] 017 Exercise 1.17 -> EASY
 - [ ] 018 Exercise 1.18
 - [ ] 019 Exercise 1.19
 - [ ] 020 Exercise 1.20

@@ -42,3 +42,25 @@
 
 "(make-rat 100 1000) should print (1 . 10)"
 (make-rat 100 1000)
+
+; my solution works, but here is a more elegant solution from http://community.schemewiki.org
+; the elegant solution relies on the fact that we are dividing both numerator and denominator
+; by the same value, g. we can make this value negative if the denominator is negative because
+; we never want the denominator to be negative. since we are dividing numerator and denominator
+; by the same value, we aren't changing the fraction's value, so it 'just works'.
+
+(define (make-rat-nice n d) 
+ (let ((g ((if (< d 0) - +) (abs (gcd n d))))) 
+   (cons (/ n g) (/ d g))))
+
+"(make-rat-nice -2 -2) should print (1 . 1)"
+(make-rat-nice -2 -2)
+
+"(make-rat-nice -21 7) should print (-3 . 1)"
+(make-rat-nice -21 7)
+
+"(make-rat-nice 13 -26) should print (-1 . 2)"
+(make-rat-nice 13 -26)
+
+"(make-rat-nice 100 1000) should print (1 . 10)"
+(make-rat-nice 100 1000)

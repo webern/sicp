@@ -51,7 +51,7 @@ This is my work on Structure and Intepretation of Computer Programs.
 - [ ] 044 Exercise 1.44
 - [ ] 045 Exercise 1.45
 - [ ] 046 Exercise 1.46
-- [ ] 047 Exercise 2.1  -> in progress
+- [x] 047 Exercise 2.1  -> MODERATE - scheme syntax made this hard for me, but the math concept is very simple
 - [ ] 048 Exercise 2.2
 - [ ] 049 Exercise 2.3
 - [ ] 050 Exercise 2.4

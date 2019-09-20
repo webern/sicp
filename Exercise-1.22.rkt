@@ -7,6 +7,17 @@
 ; n and checks to see if n is prime. If n is prime, the procedure prints three asterisks followed 
 ; by the amount of time used in performing the test.
 
+(define (square x) (* x x))
+
+(define (smallest-divisor n) (find-divisor n 2))
+
+(define (find-divisor n current)
+    (cond ((> (square current) n) n)
+          ((divides? current n) current)
+          (else (find-divisor n (+ current 1)))))
+
+(define (divides? a b) (= remainder b a) 0)
+
 (define (prime? n) (= n 0))
 
 (define (runtime) (current-milliseconds))
@@ -24,3 +35,4 @@
 (define (report-prime elapsed-time)
     (display " *** ")
     (display elapsed-time))
+

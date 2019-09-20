@@ -25,7 +25,7 @@ This is my work on Structure and Intepretation of Computer Programs.
 - [x] 018 Exercise 1.18 -> EASY - if you understood 1.16
 - [ ] 019 Exercise 1.19 -> MATH - too hard, have to skip it for now
 - [x] 020 Exercise 1.20 -> MODERATE - i thought normal form would be infinite, neglected 'special form if'
-- [ ] 021 Exercise 1.21
+- [x] 021 Exercise 1.21 -> EASY
 - [ ] 022 Exercise 1.22
 - [ ] 023 Exercise 1.23
 - [ ] 024 Exercise 1.24

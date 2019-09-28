@@ -14,3 +14,81 @@
 ; modification halves the number of test steps, you should expect it to run about twice as fast. Is
 ; this expectation confirmed? If not, what is the observed ratio of the speeds of the two
 ; algorithms, and how do you explain the fact that it is different from 2?
+
+(define (square x) (* x x))
+
+(define (smallest-divisor-v1 n) (find-divisor-v1 n 2))
+ 
+(define (find-divisor-v1 n test-divisor)
+  (cond ((> (square test-divisor) n) n)
+        ((divides? test-divisor n) test-divisor)
+        (else (find-divisor-v1 n (+ test-divisor 1)))))
+
+(define (divides? a b) (= (remainder b a) 0))
+
+(define (runtime) (current-milliseconds))
+
+(define (start-timed-function start-time func input)
+  (let ((result (func input)))
+  (report-time (- (runtime) start-time) input result)))
+
+(define (report-time elapsed-time input output)  
+  (display "input: ")
+  (display input)
+  (display ", output: ")
+  (display output)
+  (display " *** ")
+  (display elapsed-time)
+  (display " ms"))
+
+(display "test: (start-timed-function (runtime) smallest-divisor-v1 100039)")
+(newline)
+(start-timed-function (runtime) smallest-divisor-v1 100039)
+(newline)
+(newline)
+
+(define (next-test current)
+  (if (= current 2)
+      (+ current 1)
+      (+ current 2)))
+
+(define (find-divisor-v2 n test-divisor)
+  (cond ((> (square test-divisor) n) n)
+        ((divides? test-divisor n) test-divisor)
+        (else (find-divisor-v2 n (next-test test-divisor)))))
+
+(define (smallest-divisor-v2 n) (find-divisor-v2 n 2))
+
+(display "test: (start-timed-function (runtime) smallest-divisor-v2 100039)")
+(newline)
+(start-timed-function (runtime) smallest-divisor-v2 100039)
+(newline)
+(newline)
+
+(display "-----------------------------------------------------------------")
+(newline)
+(display "-- slower version")
+(newline)
+(display "-----------------------------------------------------------------")
+(newline)
+
+(start-timed-function (runtime) smallest-divisor-v1 100000000000097)
+
+
+
+(newline)
+(newline)
+(display "-----------------------------------------------------------------")
+(newline)
+(display "-- faster version")
+(newline)
+(display "-----------------------------------------------------------------")
+(newline)
+
+(start-timed-function (runtime) smallest-divisor-v2 100000000000097)
+
+(newline)
+(newline)
+
+; conclusion 54ms vs 123ms, approximately twice as fast, as expected
+

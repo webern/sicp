@@ -27,8 +27,8 @@ This is my work on Structure and Intepretation of Computer Programs.
 - [x] 020 Exercise 1.20 -> MODERATE - i thought normal form would be infinite, neglected 'special form if'
 - [x] 021 Exercise 1.21 -> EASY
 - [x] 022 Exercise 1.22 -> MODERATE - required some rewriting of the SICP scheme
-- [x] 023 Exercise 1.23 -> EAST
-- [ ] 024 Exercise 1.24
+- [x] 023 Exercise 1.23 -> EASY
+- [x] 024 Exercise 1.24 -> EASY - note, modern machines too fast for this
 - [ ] 025 Exercise 1.25
 - [ ] 026 Exercise 1.26
 - [ ] 027 Exercise 1.27

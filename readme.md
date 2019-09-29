@@ -29,7 +29,6 @@ This is my work on Structure and Intepretation of Computer Programs.
 - [x] 022 Exercise 1.22 -> MODERATE - required some rewriting of the SICP scheme
 - [x] 023 Exercise 1.23 -> EASY
 - [x] 024 Exercise 1.24 -> EASY - note, modern machines too fast for this
-- [ ] 025 Exercise 1.25
 - [ ] 026 Exercise 1.26
 - [ ] 027 Exercise 1.27
 - [ ] 028 Exercise 1.28
